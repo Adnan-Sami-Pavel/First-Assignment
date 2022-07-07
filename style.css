@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 .section-head{
-    background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 1)),url(donation9.jpg);
+    background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 1)),url(image/donation9.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -20,7 +20,7 @@ body{
     font-weight: 400;
     width: 826px;
     height: 158px;
-    left: 350px;
+    left: 390px;
     top: 250px;
 }
 #p-head{
@@ -32,7 +32,7 @@ body{
     line-height: 28px;
     width: 910px;
     height: 56px;
-    left: 325px;
+    left: 350px;
     top: 469px;
 }
 .donate-button{
@@ -44,13 +44,13 @@ body{
     width: 160px;
     height: 56px;
     top: 580px;
-    left: 680px;
+    left: 700px;
     border-radius: 5px;
     padding-left: 50px;
     font-weight: 600;
     align-items: center;
 }
-#h2-mid{
+.h2-mid{
     position: absolute;
     width: 304px;
     height: 54px;
@@ -61,7 +61,7 @@ body{
     text-align: center;
     color: black;
 }
-#p-mid{
+.p-mid{
     position: absolute;
     width: 691px;
     height: 56px;
@@ -73,49 +73,17 @@ body{
     text-align: center;
 }
 #p2-mid{
-    position: absolute;
-    width: 691px;
-    height: 56px;
-    left: 450px;
     top: 1280px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     text-align: center;
 }
-#donation-amount1{
+.donation-amount1{
     position: absolute;
     width: 135px;
     height: 123px;
     left: 338px;
-    top: 1380px;
-    background: #fceded;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #707070;
-}
-#donation-amount1{
-    position: absolute;
-    width: 135px;
-    height: 123px;
-    left: 338px;
-    top: 1380px;
-    background: #fceded;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #707070;
-}
-#donation-amount1{
-    position: absolute;
-    width: 135px;
-    height: 123px;
-    left: 390px;
     top: 1380px;
     background: #FAFAFA;
     border-radius: 5px;
@@ -126,67 +94,25 @@ body{
     color: #707070;
 }
 #donation-amount2{
-    position: absolute;
-    width: 135px;
-    height: 123px;
     left: 552px;
-    top: 1380px;
-    background: #fceded;
+    background: #FFEEEE;
     border: 2px solid rgb(192, 67, 67);
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #707070;
+    
 }
 #donation-amount3{
-    position: absolute;
-    width: 135px;
-    height: 123px;
     left: 714px;
-    top: 1380px;
-    background: #FAFAFA;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #707070;
 }
 #donation-amount4{
-    position: absolute;
-    width: 135px;
-    height: 123px;
     left: 876px;
-    top: 1380px;
-    background: #FAFAFA;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #707070;
 }
 #donation-amount5{
-    position: absolute;
-    width: 135px;
-    height: 123px;
     left: 1038px;
-    top: 1380px;
-    background: #FAFAFA;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #707070;
 }
 #other-amount{
     position: absolute;
     width: 765px;
     height: 56px;
-    left: 390px;
+    left: 415px;
     top: 1550px;
     text-align: center;
     border-top: 0px;
@@ -196,4 +122,54 @@ body{
 }
 #_2nd-button{
     top: 1650px;
+}
+#h2-mid-plan{
+    width: 357px;
+    top: 1800px;
+}
+#p-mid-2nd{
+    top: 1900px;
+}
+.image-medic{
+    width: 58.13px;
+    height: 49.77px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.donation-h3{
+    width: 210px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 20px;
+}
+.donation-p{
+    width: 315px;
+    height: 101px;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+.donation-plan{
+    position: absolute;
+    width: 360px;
+    height: 352px;
+    border-radius: 10px;
+    background-color: rgba(79, 157, 166, 0.1);
+    left: 200px;
+    top: 2000px;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+#donation-plan-2{
+    background-color: rgba(255, 89, 89, 0.1);
+    left: 600px;
+}
+#donation-plan-3{
+    background-color: rgba(251, 255, 1, 0.2);
+    left: 1000px;
 }
