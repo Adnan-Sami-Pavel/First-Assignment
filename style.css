@@ -173,3 +173,45 @@ body{
     background-color: rgba(251, 255, 1, 0.2);
     left: 1000px;
 }
+.how-we-are{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 200px;
+    top: 2550px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 10px;
+}
+#how-we-are-2{
+    left: 900px;
+    top: 3000px;
+}
+#how-we-are-3{
+    top: 3450px;
+}
+.how-we-h2{
+    width: 304px;
+    height: 54px;
+    font-size: 45px;
+    line-height: 54px;
+    padding-left: 10px;
+
+}
+.p-how{
+    padding-left: 10px;
+}
+.img-1{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    top: 2550px;
+    left: 800px;
+    border-radius: 10px;
+}
+#img-2{
+    top: 3000px;
+    left: 200px;
+}
+#img-3{
+    top: 3450px;
+}
